@@ -11,21 +11,19 @@
        | $$
        |__/
 ```
-
----
-
 ![GitHub repo size](https://img.shields.io/github/repo-size/denv3rr/pwsh)
 ![GitHub Created At](https://img.shields.io/github/created-at/denv3rr/pwsh)
 ![Last Commit](https://img.shields.io/github/last-commit/denv3rr/pwsh)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fseperet.com&label=seperet.com)
 
-Scripts.
+PowerShell configs and scripts.
 
 ---
 
-## Example
-
-``` powershell
+<details>
+ <summary><h2>Profile Related</h2></summary>
+ 
+```powershell
 PowerShell 7.5.4
 
 
@@ -60,23 +58,29 @@ Loading personal and system profiles took 667ms.
 
 ---
 
-## Requires
+### Requires
 
 - scoop
-       - ```
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
-       ```
+- powershell 7.5+
+- fastfetch
+- extras bucket
+- nerdfonts bucket
 
-### quick:
+### Installs
 
-- install scoop apps
-       - ```
-scoop bucket add extras nerd-fonts
-scoop install 7zip aria2 dark windows-terminal pwsh fastfetch oh-my-posh JetBrainsMono-NF
-       ```
+- scoop:
+  ```
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+  Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+  ```
 
-### manual:
+- scoop buckets and apps:
+  ```
+  scoop bucket add extras nerd-fonts
+  scoop install 7zip aria2 dark windows-terminal pwsh fastfetch oh-my-posh JetBrainsMono-NF
+  ```
+
+### Manual Installs:
 
 - PowerShell 7.5+
        - ```scoop install pwsh```
@@ -85,3 +89,5 @@ scoop install 7zip aria2 dark windows-terminal pwsh fastfetch oh-my-posh JetBrai
        - ```scoop install fastfetch```
 
 ---
+
+</details>
