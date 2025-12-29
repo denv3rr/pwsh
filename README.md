@@ -24,36 +24,25 @@ PowerShell configs and scripts.
  <summary><h2>Profile Related</h2></summary>
  
 ```powershell
-PowerShell 7.5.4
-
-
+PowerShell 7.5
 /////////////////  /////////////////    denver@dc1
 /////////////////  /////////////////    ----------
 /////////////////  /////////////////    OS:
 /////////////////  /////////////////    Host:
 /////////////////  /////////////////    Kernel:
 /////////////////  /////////////////    Uptime:
-/////////////////  /////////////////    Packages: 19 (scoop)
-/////////////////  /////////////////    Shell: PowerShell 7.5.x
-                                        Display: [External]
+/////////////////  /////////////////    Packages: 26 (scoop)
+/////////////////  /////////////////    Shell: PowerShell 7.5
+                                        Display:
 /////////////////  /////////////////    WM Theme: Custom - Storm (System: Dark, Apps: Dark)
 /////////////////  /////////////////    Theme: Fluent
-/////////////////  /////////////////    Terminal: Windows Terminal 1.xx
+/////////////////  /////////////////    Terminal: Windows Terminal
 /////////////////  /////////////////    Terminal Font: JetBrainsMono Nerd Font (12pt)
-/////////////////  /////////////////    CPU: AMD Ryzen 7 255 (16) @ 4.95 GHz
-/////////////////  /////////////////    GPU: AMD Radeon 780M Graphics (1.86 GiB) [Integrated]
-/////////////////  /////////////////    Memory: 11.84 GiB / 61.79 GiB (19%)
-/////////////////  /////////////////    Swap: 0 B / 3.88 GiB (0%)
-                                        Disk (C:\): 124.28 GiB / 929.29 GiB (13%) - NTFS
-                                        Disk (D:\): 1.58 GiB / 1.82 TiB (0%) - NTFS
+/////////////////  /////////////////    CPU:
+/////////////////  /////////////////    GPU:
+/////////////////  /////////////////    Memory:
+/////////////////  /////////////////    Swap:
 
-
-
-
-
-Loading personal and system profiles took 667ms.
-┌──(denver㉿dc1)-[~/]      0ms
-└─ $
 ```
 
 ---
